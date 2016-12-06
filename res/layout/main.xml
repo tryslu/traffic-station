@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="edu.ntut.csie.s003.trafficstation.Main" >
+
+    <ImageView
+        android:id="@+id/main_titleImageView"
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/str_title"
+        android:src="@drawable/title_zh" />
+
+    <Button
+        android:id="@+id/main_helpButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/help_state_button"
+        android:fitsSystemWindows="true"
+        android:minHeight="10dip"
+        android:minWidth="10dip" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/main_helpButton"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|center" >
+
+            <Button
+                android:id="@+id/main_busButton"
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:layout_margin="20dp"
+                android:background="@drawable/bus_state_button"
+                android:fitsSystemWindows="true"
+                android:minHeight="10dip"
+                android:minWidth="10dip" />
+
+            <Button
+                android:id="@+id/main_ubikeButton"
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:layout_margin="20dp"
+                android:background="@drawable/ubike_state_button"
+                android:fitsSystemWindows="true"
+                android:minHeight="10dip"
+                android:minWidth="10dip" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal|center" >
+
+            <Button
+                android:id="@+id/main_mrtButton"
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:layout_margin="20dp"
+                android:background="@drawable/mrt_state_button"
+                android:fitsSystemWindows="true"
+                android:minHeight="10dip"
+                android:minWidth="10dip"
+                android:paddingTop="10dip" />
+
+            <Button
+                android:id="@+id/main_traButton"
+                android:layout_width="125dip"
+                android:layout_height="125dip"
+                android:layout_margin="20dp"
+                android:background="@drawable/tra_state_button"
+                android:fitsSystemWindows="true"
+                android:minHeight="10dip"
+                android:minWidth="10dip"
+                android:paddingTop="10dip" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical" >
+
+        <include
+            layout="@layout/dialog_title"
+            android:padding="5dp" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/_mrtView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/col_bus_yellow" />
+    
+    <ListView
+        android:id="@+id/_busListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:fitsSystemWindows="true"
+        android:longClickable="false" >
+
+    </ListView>
+
+</LinearLayout>

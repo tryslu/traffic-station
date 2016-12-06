@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="col_bus_yellow">#DABE76</color>
+    <color name="col_ubike_red">#EC836A</color>
+    <color name="col_mrt_green">#9CE485</color>
+    <color name="col_tra_blue">#82BDCD</color>
+    <color name="col_other_purple">#CDB3E4</color>
+    
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">台北找站牌</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="metaioSDKSignature">TBYXZdldNTUn13DnE26n/lezviTv1zRPhTA34ymblp0=</string>
+    <string name="str_title">Title</string>
+
+    <!-- dialog -->
+    <string name="str_bus">Bus</string>
+    <string name="str_ubike">UBike</string>
+    <string name="str_mrt">MRT</string>
+    <string name="str_tra">TRA</string>
+    <string name="str_dialog">Dialog</string>
+    <string name="btn_ok">OK</string>
+    <string name="str_loco">Loco</string>
+    <string name="str_stop_name">Stop Name</string>    
+    <string name="str_bus_name">Bus Name</string>
+    <string name="str_bus_time">Bus Time</string>
+    <string name="str_ubike_vehicles">可借車輛：</string>
+    <string name="str_ubike_parking">可停空位：</string>
+    <string name="str_ubike_address">XX路XX號</string>
+    <string name="str_ubike_district">XX區</string>
+    <string name="str_ubike_state">狀態：</string>
+    <string name="str_ubike_update_time">更新時間：</string>
+    <string name="str_ubike_amount">0</string>
+    <string name="str_mrt_start">起站：</string>
+    <string name="str_mrt_destination">訖站：</string>
+    <string name="btn_search">查詢</string>
+    <string name="btn_NorthBoundLinebutton">上行</string>
+    <string name="btn_SouthBoundLinebutton">下行</string>
+    <string name="str_tra_type">車種</string>
+    <string name="str_tra_num">車次</string>    
+    <string name="str_tra_departure">發車時間</string> 
+    <string name="str_tra_destination">往</string>
+    <string name="str_tra_state">狀態</string>
+    <string name="str_hint">Hint</string>
+    <string name="str_mrt_state">捷運站名</string>
+    <string name="str_mrt_ticketSearch">票價查詢</string>
+    <string name="str_mrt_ticket">單程票：</string>
+    <string name="str_mrt_card">悠遊卡：</string>
+    <string name="str_mrt_other">優惠票：</string>
+    <string name="str_mrt_cost">元</string>
+    <string name="str_refresh">Refresh</string>
+    <string name="str_bus_terminal">Bus Terminal</string>
+    <string name="str_null"/>
+    <string name="str_help">Help</string>
+    <string name="str_settings_title">搜尋範圍設定</string>
+    <string name="str_settings_bus">公車</string>
+    <string name="str_settings_ubike">單車</string>
+    <string name="str_settings_mrt">捷運</string>
+    <string name="str_settings_tra">臺鐵</string>
+    <string name="str_settings_meter">m</string>
+    <string name="str_settings_defalt">設為預設值</string>
+</resources>

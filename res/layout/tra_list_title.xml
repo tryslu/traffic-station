@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <TextView
+        android:id="@+id/_traTypeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/str_tra_type"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="50dp"
+        android:paddingRight="3dp" />
+
+    <TextView
+        android:id="@+id/_traNumTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        android:text="@string/str_tra_num"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="60dp" />
+
+    <TextView
+        android:id="@+id/_traDepartureTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/str_tra_departure"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="85dp" />
+
+    <TextView
+        android:id="@+id/_traDestinationTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:text="@string/str_tra_destination"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="50dp" />
+
+    <TextView
+        android:id="@+id/_traStateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:text="@string/str_tra_state"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:width="50dp" />
+
+
+</LinearLayout>

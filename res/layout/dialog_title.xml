@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical" >
+
+    <ImageView
+        android:id="@+id/_dialogTitleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/str_loco"
+        android:src="@drawable/bus" />
+
+    <TextView
+        android:id="@+id/_dialogTitleTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingLeft="10dp"
+        android:text="@string/str_stop_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ImageView
+        android:id="@+id/_dialogRefreshImageView"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="5dp"
+        android:contentDescription="@string/str_refresh"
+        android:paddingLeft="5dp"
+        android:src="@drawable/refresh_state_button" />
+
+</LinearLayout>
